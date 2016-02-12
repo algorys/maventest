@@ -13,7 +13,7 @@
 		<url>https://github.com/algorys/maventest.git</url>
 		<connection>scm:git:git@github.com:algorys/maventest.git</connection>
 		<developerConnection>scm:git:git@github.com:algorys/maventest.git</developerConnection>
-	  <tag>maventest-0.0.1</tag>
+	  <tag>v0.0.1</tag>
   </scm>
 
 	<issueManagement>
@@ -62,7 +62,7 @@
 				<configuration>
 					<description>Description of your release</description>
 					<releaseName>${project.scm.tag}</releaseName>
-					<tag>${project.version}</tag>
+					<tag>${project.scm.tag}</tag>
 
 					<!-- If your project has additional artifacts, such as ones produced 
 						by the maven-assembly-plugin, you can define the following (requires version 
@@ -102,7 +102,6 @@
 					<repositoryName>maventest</repositoryName>      <!-- github repo name -->
 					<repositoryOwner>algorys</repositoryOwner>    <!-- github username -->
 					<merge>true</merge>
-					
 				</configuration>
 				<executions>
 					<!-- run site-maven-plugin's 'site' target as part of the build's normal 
