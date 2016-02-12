@@ -3,7 +3,7 @@
 
 	<groupId>io.github.algorys</groupId>
 	<artifactId>maventest</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>maventest</name>
@@ -13,7 +13,7 @@
 		<url>https://github.com/algorys/maventest.git</url>
 		<connection>scm:git:git@github.com:algorys/maventest.git</connection>
 		<developerConnection>scm:git:git@github.com:algorys/maventest.git</developerConnection>
-	  <tag>v0.0.2</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<issueManagement>
